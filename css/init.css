@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+body{
+    background: #000;
+}
+div.start{
+    width: 600px;
+    height: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+div.score{
+    color: white;
+}
+button{
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    background: rgb(6, 94, 6);
+}
+button:hover{
+    background: rgb(55, 161, 55);
+    color: rgb(73, 66, 66);
+}
